@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alisverislio_Task", "Alisverislio_Task\Alisverislio_Task.csproj", "{64242F3C-E13B-46B9-87CB-BC533553195F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alisverislio_Task", "Alisverislio_Task\Alisverislio_Task.csproj", "{64242F3C-E13B-46B9-87CB-BC533553195F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alisverislio_Task.DAL", "Alisverislio_Task.DAL\Alisverislio_Task.DAL.csproj", "{7A4C3CC7-0C04-49CF-9416-E08F66D37667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alisverislio_Task.DAL", "Alisverislio_Task.DAL\Alisverislio_Task.DAL.csproj", "{7A4C3CC7-0C04-49CF-9416-E08F66D37667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alisverislio_Task.BLL", "Alisverislio_Task.BLL\Alisverislio_Task.BLL.csproj", "{5CB021BA-0FF4-443C-9801-BA0B64C180E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alisverislio_Task.BLL", "Alisverislio_Task.BLL\Alisverislio_Task.BLL.csproj", "{5CB021BA-0FF4-443C-9801-BA0B64C180E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alisverislio_Task_Test", "Alisverislio_Task_Test\Alisverislio_Task_Test.csproj", "{7A4A0134-E639-4164-BFED-04011C16CA3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6534774-F61F-4E39-B955-35E13C972194}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,10 @@ Global
 		{5CB021BA-0FF4-443C-9801-BA0B64C180E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CB021BA-0FF4-443C-9801-BA0B64C180E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CB021BA-0FF4-443C-9801-BA0B64C180E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4A0134-E639-4164-BFED-04011C16CA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4A0134-E639-4164-BFED-04011C16CA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4A0134-E639-4164-BFED-04011C16CA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4A0134-E639-4164-BFED-04011C16CA3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
