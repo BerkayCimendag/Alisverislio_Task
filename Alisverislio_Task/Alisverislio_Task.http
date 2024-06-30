@@ -1,0 +1,6 @@
+@Alisverislio_Task_HostAddress = http://localhost:5139
+
+GET {{Alisverislio_Task_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
